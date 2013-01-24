@@ -1,0 +1,16 @@
+CFLAGS="-march=native -Os -pipe -fomit-frame-pointer" rvm reinstall 1.9.3-p194 --patch falcon
+
+---
+layout: post
+title: Optimizing ruby by applying various patches
+category: posts
+---
+
+    CFLAGS="-march=native -Os -pipe -fomit-frame-pointer" rvm reinstall 1.9.3-p194 --patch falcon
+---
+
+If you have any questions, follow and ping me on Twitter- I'm
+[@abdollar][twitter].
+
+[code]: http://github.com/abdollar
+[twitter]: https://twitter.com/abdollar
